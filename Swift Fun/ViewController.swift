@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         
         buttonCount = buttonCount + 1
         view.backgroundColor = UIColor.yellow
-        MyLabel.text = "Henry?"
+        MyLabel.text = "Henry!"
         print(buttonCount)
         if buttonCount == 10 {
             MyLabel.text = "You hit the button 10 times!"
